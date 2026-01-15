@@ -24,6 +24,7 @@
 		A1000029241D0001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000030241D0001 /* Theme.swift */; };
 		A1000031241D0001 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000032241D0001 /* DataService.swift */; };
 		A1000033241D0001 /* SwimmerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000034241D0001 /* SwimmerDetailView.swift */; };
+		A1000035241D0001 /* SwimmerTimesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000036241D0001 /* SwimmerTimesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		A1000030241D0001 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A1000032241D0001 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A1000034241D0001 /* SwimmerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmerDetailView.swift; sourceTree = "<group>"; };
+		A1000036241D0001 /* SwimmerTimesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmerTimesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				A1000014241D0001 /* Meet.swift */,
 				A1000016241D0001 /* MockData.swift */,
 				A1000030241D0001 /* Theme.swift */,
+				A1000036241D0001 /* SwimmerTimesData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				A1000029241D0001 /* Theme.swift in Sources */,
 				A1000031241D0001 /* DataService.swift in Sources */,
 				A1000033241D0001 /* SwimmerDetailView.swift in Sources */,
+				A1000035241D0001 /* SwimmerTimesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +357,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IvySwimFantasy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A862D8CMW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -370,6 +376,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivyswimfantasy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,9 +388,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IvySwimFantasy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A862D8CMW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -398,6 +407,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivyswimfantasy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

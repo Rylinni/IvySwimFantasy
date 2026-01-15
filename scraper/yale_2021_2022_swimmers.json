@@ -1,0 +1,596 @@
+[
+  {
+    "swimcloud_id": 371199,
+    "name": "Richard Certuche",
+    "first_name": "Richard",
+    "last_name": "Certuche",
+    "hometown": "riverview, FL",
+    "class_year": null,
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "23.23",
+        "time_seconds": 23.23,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "25.82",
+        "time_seconds": 25.82,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Free",
+        "time": "27.59",
+        "time_seconds": 27.59,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Breast",
+        "time": "28.85",
+        "time_seconds": 28.85,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Breast",
+        "time": "32.49",
+        "time_seconds": 32.49,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "51.08",
+        "time_seconds": 51.08,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/371199"
+  },
+  {
+    "swimcloud_id": 548998,
+    "name": "Dylan Cossin",
+    "first_name": "Dylan",
+    "last_name": "Cossin",
+    "hometown": "Stow, OH",
+    "class_year": "FR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Breast",
+        "time": "28.21",
+        "time_seconds": 28.21,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "34.69",
+        "time_seconds": 34.69,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Free",
+        "time": "34.70",
+        "time_seconds": 34.7,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Fly",
+        "time": "37.01",
+        "time_seconds": 37.01,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Free",
+        "time": "37.40",
+        "time_seconds": 37.4,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "46.02",
+        "time_seconds": 46.02,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/548998"
+  },
+  {
+    "swimcloud_id": 511846,
+    "name": "Caleb Dankle",
+    "first_name": "Caleb",
+    "last_name": "Dankle",
+    "hometown": "Smithfield, PA",
+    "class_year": "SR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Fly",
+        "time": "27.18",
+        "time_seconds": 27.18,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Free",
+        "time": "32.45",
+        "time_seconds": 32.45,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Back",
+        "time": "37.25",
+        "time_seconds": 37.25,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "52.87",
+        "time_seconds": 52.87,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "57.97",
+        "time_seconds": 57.97,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 L Free",
+        "time": "1:05.84",
+        "time_seconds": 65.84,
+        "course": "LCM",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/511846"
+  },
+  {
+    "swimcloud_id": 1320023,
+    "name": "Colton Dvorak",
+    "first_name": "Colton",
+    "last_name": "Dvorak",
+    "hometown": "Springfield, OH",
+    "class_year": "FR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "22.53",
+        "time_seconds": 22.53,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "25.54",
+        "time_seconds": 25.54,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Breast",
+        "time": "40.71",
+        "time_seconds": 40.71,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "50.08",
+        "time_seconds": 50.08,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "55.78",
+        "time_seconds": 55.78,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Back",
+        "time": "1:18.95",
+        "time_seconds": 78.95,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/1320023"
+  },
+  {
+    "swimcloud_id": 1305146,
+    "name": "Luke Edmonds",
+    "first_name": "Luke",
+    "last_name": "Edmonds",
+    "hometown": "Edinboro, PA",
+    "class_year": "JR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "21.46",
+        "time_seconds": 21.46,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "25.01",
+        "time_seconds": 25.01,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Free",
+        "time": "25.45",
+        "time_seconds": 25.45,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "47.29",
+        "time_seconds": 47.29,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "53.52",
+        "time_seconds": 53.52,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 L Free",
+        "time": "57.09",
+        "time_seconds": 57.09,
+        "course": "LCM",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/1305146"
+  },
+  {
+    "swimcloud_id": 817577,
+    "name": "Aaron Frederick",
+    "first_name": "Aaron",
+    "last_name": "Frederick",
+    "hometown": "Pittsburgh, PA",
+    "class_year": "FR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "23.00",
+        "time_seconds": 23.0,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Breast",
+        "time": "35.79",
+        "time_seconds": 35.79,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "50.34",
+        "time_seconds": 50.34,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Back",
+        "time": "1:08.83",
+        "time_seconds": 68.83,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Breast",
+        "time": "1:17.04",
+        "time_seconds": 77.03999999999999,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "200 Y Free",
+        "time": "1:55.45",
+        "time_seconds": 115.45,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/817577"
+  },
+  {
+    "swimcloud_id": 808268,
+    "name": "Gerardo Gonzalez",
+    "first_name": "Gerardo",
+    "last_name": "Gonzalez",
+    "hometown": "Ciudad de M\u00e9xico, DF",
+    "class_year": "SO",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 L Back",
+        "time": "26.89",
+        "time_seconds": 26.89,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Free",
+        "time": "29.52",
+        "time_seconds": 29.52,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Back",
+        "time": "50.39",
+        "time_seconds": 50.39,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 L Free",
+        "time": "54.75",
+        "time_seconds": 54.75,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 S Back",
+        "time": "57.01",
+        "time_seconds": 57.01,
+        "course": "SCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 L Back",
+        "time": "58.85",
+        "time_seconds": 58.85,
+        "course": "LCM",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/808268"
+  },
+  {
+    "swimcloud_id": 452191,
+    "name": "Bear Kinney",
+    "first_name": "Bear",
+    "last_name": "Kinney",
+    "hometown": "Massillon, OH",
+    "class_year": "JR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "20.90",
+        "time_seconds": 20.9,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "24.14",
+        "time_seconds": 24.14,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Free",
+        "time": "24.33",
+        "time_seconds": 24.33,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Breast",
+        "time": "29.71",
+        "time_seconds": 29.71,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "25 Y Back",
+        "time": "31.16",
+        "time_seconds": 31.16,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Back",
+        "time": "39.15",
+        "time_seconds": 39.15,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/452191"
+  },
+  {
+    "swimcloud_id": 927270,
+    "name": "Sean Mitcho",
+    "first_name": "Sean",
+    "last_name": "Mitcho",
+    "hometown": "Gates Mills, OH",
+    "class_year": "FR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "22.54",
+        "time_seconds": 22.54,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "26.07",
+        "time_seconds": 26.07,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Free",
+        "time": "26.63",
+        "time_seconds": 26.63,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Back",
+        "time": "28.18",
+        "time_seconds": 28.18,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "49.51",
+        "time_seconds": 49.51,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Back",
+        "time": "58.36",
+        "time_seconds": 58.36,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/927270"
+  },
+  {
+    "swimcloud_id": 451775,
+    "name": "Kevin Morgan",
+    "first_name": "Kevin",
+    "last_name": "Morgan",
+    "hometown": "Highland Heights, OH",
+    "class_year": "JR",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Free",
+        "time": "22.76",
+        "time_seconds": 22.76,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "25.57",
+        "time_seconds": 25.57,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Breast",
+        "time": "27.85",
+        "time_seconds": 27.85,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Free",
+        "time": "49.55",
+        "time_seconds": 49.55,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "54.68",
+        "time_seconds": 54.68,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "100 Y Breast",
+        "time": "59.40",
+        "time_seconds": 59.4,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/451775"
+  },
+  {
+    "swimcloud_id": 466253,
+    "name": "Jacob Neal",
+    "first_name": "Jacob",
+    "last_name": "Neal",
+    "hometown": "Gainesville, VA",
+    "class_year": "SO",
+    "school": "Yale",
+    "times": [
+      {
+        "event": "50 Y Fly",
+        "time": "24.92",
+        "time_seconds": 24.92,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Free",
+        "time": "26.10",
+        "time_seconds": 26.1,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 Y Back",
+        "time": "26.85",
+        "time_seconds": 26.85,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "25 Y Free",
+        "time": "27.33",
+        "time_seconds": 27.33,
+        "course": "SCY",
+        "is_personal_best": true
+      },
+      {
+        "event": "50 L Fly",
+        "time": "27.43",
+        "time_seconds": 27.43,
+        "course": "LCM",
+        "is_personal_best": true
+      },
+      {
+        "event": "25 Y Back",
+        "time": "33.52",
+        "time_seconds": 33.52,
+        "course": "SCY",
+        "is_personal_best": true
+      }
+    ],
+    "profile_url": "https://www.swimcloud.com/swimmer/466253"
+  }
+]

@@ -1,0 +1,437 @@
+[
+  {
+    "swimmer_id": 415901,
+    "score": 262.85,
+    "season_id": 14,
+    "season_label": "2010-2011",
+    "fastest_times": [
+      {
+        "event": "50 L Back",
+        "time": "37.48"
+      },
+      {
+        "event": "200 L Free",
+        "time": "2:39.30"
+      },
+      {
+        "event": "50 L Free",
+        "time": "32.72"
+      },
+      {
+        "event": "100 L Free",
+        "time": "1:13.70"
+      },
+      {
+        "event": "100 L Back",
+        "time": "1:22.90"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 322.9,
+    "season_id": 15,
+    "season_label": "2011-2012",
+    "fastest_times": [
+      {
+        "event": "100 L Free",
+        "time": "1:07.32"
+      },
+      {
+        "event": "50 L Free",
+        "time": "30.75"
+      },
+      {
+        "event": "200 L Free",
+        "time": "2:30.08"
+      },
+      {
+        "event": "50 L Back",
+        "time": "35.90"
+      },
+      {
+        "event": "100 L Back",
+        "time": "1:18.37"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 353.2,
+    "season_id": 16,
+    "season_label": "2012-2013",
+    "fastest_times": [
+      {
+        "event": "200 L IM",
+        "time": "2:39.77"
+      },
+      {
+        "event": "100 L Back",
+        "time": "1:13.84"
+      },
+      {
+        "event": "50 L Back",
+        "time": "34.32"
+      },
+      {
+        "event": "100 L Fly",
+        "time": "1:11.11"
+      },
+      {
+        "event": "50 L Free",
+        "time": "30.36"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 406.8,
+    "season_id": 17,
+    "season_label": "2013-2014",
+    "fastest_times": [
+      {
+        "event": "50 Y Fly",
+        "time": "27.68"
+      },
+      {
+        "event": "100 L Free",
+        "time": "1:03.96"
+      },
+      {
+        "event": "200 L Back",
+        "time": "2:32.49"
+      },
+      {
+        "event": "200 L IM",
+        "time": "2:35.57"
+      },
+      {
+        "event": "100 L Back",
+        "time": "1:11.30"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 465.8,
+    "season_id": 18,
+    "season_label": "2014-2015",
+    "fastest_times": [
+      {
+        "event": "200 L IM",
+        "time": "2:26.59"
+      },
+      {
+        "event": "400 L IM",
+        "time": "5:13.98"
+      },
+      {
+        "event": "100 L Free",
+        "time": "1:01.08"
+      },
+      {
+        "event": "200 L Fly",
+        "time": "2:25.15"
+      },
+      {
+        "event": "100 L Fly",
+        "time": "1:05.14"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 578.55,
+    "season_id": 19,
+    "season_label": "2015-2016",
+    "fastest_times": [
+      {
+        "event": "400 L Free",
+        "time": "4:21.57"
+      },
+      {
+        "event": "800 L Free",
+        "time": "9:05.80"
+      },
+      {
+        "event": "200 L Free",
+        "time": "2:03.26"
+      },
+      {
+        "event": "200 L Fly",
+        "time": "2:15.44"
+      },
+      {
+        "event": "400 L IM",
+        "time": "4:57.61"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 664.5,
+    "season_id": 20,
+    "season_label": "2016-2017",
+    "fastest_times": [
+      {
+        "event": "400 L Free",
+        "time": "4:11.40"
+      },
+      {
+        "event": "500 Y Free",
+        "time": "4:44.60"
+      },
+      {
+        "event": "200 L Free",
+        "time": "1:56.85"
+      },
+      {
+        "event": "200 Y Free",
+        "time": "1:44.25"
+      },
+      {
+        "event": "100 L Free",
+        "time": "54.13"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 714.05,
+    "season_id": 21,
+    "season_label": "2017-2018",
+    "fastest_times": [
+      {
+        "event": "200 L Free",
+        "time": "1:53.78"
+      },
+      {
+        "event": "500 Y Free",
+        "time": "4:38.09"
+      },
+      {
+        "event": "400 L Free",
+        "time": "4:06.89"
+      },
+      {
+        "event": "200 Y Fly",
+        "time": "1:49.29"
+      },
+      {
+        "event": "200 L Fly",
+        "time": "2:05.79"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 762.75,
+    "season_id": 22,
+    "season_label": "2018-2019",
+    "fastest_times": [
+      {
+        "event": "200 Y Free",
+        "time": "1:37.25"
+      },
+      {
+        "event": "500 Y Free",
+        "time": "4:31.80"
+      },
+      {
+        "event": "1000 Y Free",
+        "time": "9:25.10"
+      },
+      {
+        "event": "200 L Fly",
+        "time": "2:03.13"
+      },
+      {
+        "event": "400 Y IM",
+        "time": "3:55.62"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 745.0,
+    "season_id": 23,
+    "season_label": "2019-2020",
+    "fastest_times": [
+      {
+        "event": "400 Y IM",
+        "time": "3:54.60"
+      },
+      {
+        "event": "200 Y IM",
+        "time": "1:48.12"
+      },
+      {
+        "event": "200 L IM",
+        "time": "2:06.19"
+      },
+      {
+        "event": "100 L Fly",
+        "time": "55.49"
+      },
+      {
+        "event": "200 L Fly",
+        "time": "2:04.44"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 791.0,
+    "season_id": 24,
+    "season_label": "2020-2021",
+    "fastest_times": [
+      {
+        "event": "200 Y Fly",
+        "time": "1:44.43"
+      },
+      {
+        "event": "200 Y Free",
+        "time": "1:36.75"
+      },
+      {
+        "event": "200 Y IM",
+        "time": "1:46.90"
+      },
+      {
+        "event": "200 L IM",
+        "time": "2:04.56"
+      },
+      {
+        "event": "50 Y Fly",
+        "time": "22.01"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 795.95,
+    "season_id": 25,
+    "season_label": "2021-2022",
+    "fastest_times": [
+      {
+        "event": "50 Y Fly",
+        "time": "21.57"
+      },
+      {
+        "event": "200 Y Fly",
+        "time": "1:44.85"
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "46.70"
+      },
+      {
+        "event": "200 Y IM",
+        "time": "1:48.65"
+      },
+      {
+        "event": "100 L Fly",
+        "time": "55.51"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 809.25,
+    "season_id": 26,
+    "season_label": "2022-2023",
+    "fastest_times": [
+      {
+        "event": "50 Y Fly",
+        "time": "21.40"
+      },
+      {
+        "event": "200 Y Fly",
+        "time": "1:44.67"
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "46.52"
+      },
+      {
+        "event": "100 Y Back",
+        "time": "47.17"
+      },
+      {
+        "event": "200 L IM",
+        "time": "2:05.11"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 785.55,
+    "season_id": 27,
+    "season_label": "2023-2024",
+    "fastest_times": [
+      {
+        "event": "50 Y Fly",
+        "time": "21.64"
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "46.55"
+      },
+      {
+        "event": "100 Y Back",
+        "time": "47.23"
+      },
+      {
+        "event": "100 L Fly",
+        "time": "53.93"
+      },
+      {
+        "event": "200 Y Fly",
+        "time": "1:46.31"
+      }
+    ],
+    "is_active_season": false
+  },
+  {
+    "swimmer_id": 415901,
+    "score": 806.45,
+    "season_id": 28,
+    "season_label": "2024-2025",
+    "fastest_times": [
+      {
+        "event": "50 Y Fly",
+        "time": "21.43"
+      },
+      {
+        "event": "100 Y Fly",
+        "time": "46.06"
+      },
+      {
+        "event": "100 Y Back",
+        "time": "46.88"
+      },
+      {
+        "event": "200 Y Back",
+        "time": "1:45.46"
+      },
+      {
+        "event": "50 Y Back",
+        "time": "22.34"
+      }
+    ],
+    "is_active_season": false
+  }
+]

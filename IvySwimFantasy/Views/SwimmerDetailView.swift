@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SwimmerDetailView: View {
     let swimmer: Swimmer
+    @State private var selectedCourse: SwimCourse = .scy
 
     var body: some View {
         ScrollView {
@@ -12,11 +13,13 @@ struct SwimmerDetailView: View {
                 // Stats
                 statsSection
 
+                // Personal Best Times
+                if !swimmer.times.isEmpty {
+                    timesSection
+                }
+
                 // Events
                 eventsSection
-
-                // Recent results placeholder
-                recentResultsSection
             }
             .padding()
         }
@@ -132,79 +135,105 @@ struct SwimmerDetailView: View {
         }
     }
 
-    var recentResultsSection: some View {
+    var timesSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("RECENT RESULTS")
-                .font(.system(size: 11, weight: .semibold))
-                .foregroundColor(AppTheme.textMuted)
-                .padding(.horizontal, 4)
+            HStack {
+                Text("PERSONAL BEST TIMES")
+                    .font(.system(size: 11, weight: .semibold))
+                    .foregroundColor(AppTheme.textMuted)
 
-            VStack(spacing: 8) {
-                placeholderResult(event: "200 Free", time: "1:38.45", place: 2, points: 17)
-                placeholderResult(event: "100 Free", time: "44.21", place: 5, points: 14)
-                placeholderResult(event: "500 Free", time: "4:22.89", place: 3, points: 16)
+                Spacer()
+
+                // Course selector
+                Menu {
+                    ForEach(SwimCourse.allCases, id: \.self) { course in
+                        Button {
+                            selectedCourse = course
+                        } label: {
+                            HStack {
+                                Text(course.displayName)
+                                if course == selectedCourse {
+                                    Image(systemName: "checkmark")
+                                }
+                            }
+                        }
+                    }
+                } label: {
+                    HStack(spacing: 4) {
+                        Text(selectedCourse.rawValue)
+                            .font(.system(size: 12, weight: .semibold))
+                        Image(systemName: "chevron.down")
+                            .font(.system(size: 10))
+                    }
+                    .foregroundColor(AppTheme.accent)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 6)
+                    .background(AppTheme.accent.opacity(0.15))
+                    .cornerRadius(8)
+                }
             }
-            .padding()
-            .cardStyle()
+            .padding(.horizontal, 4)
+
+            let filteredTimes = swimmer.times.filter { $0.course == selectedCourse }
+
+            if filteredTimes.isEmpty {
+                HStack {
+                    Spacer()
+                    VStack(spacing: 8) {
+                        Image(systemName: "stopwatch")
+                            .font(.system(size: 28))
+                            .foregroundColor(AppTheme.textMuted)
+                        Text("No \(selectedCourse.displayName) times available")
+                            .font(.system(size: 14))
+                            .foregroundColor(AppTheme.textMuted)
+                    }
+                    .padding(.vertical, 24)
+                    Spacer()
+                }
+                .cardStyle()
+            } else {
+                VStack(spacing: 0) {
+                    ForEach(Array(filteredTimes.enumerated()), id: \.offset) { index, swimTime in
+                        timeRow(swimTime: swimTime)
+
+                        if index < filteredTimes.count - 1 {
+                            Divider()
+                                .background(AppTheme.cardBackgroundLight)
+                        }
+                    }
+                }
+                .cardStyle()
+            }
         }
     }
 
-    func placeholderResult(event: String, time: String, place: Int, points: Int) -> some View {
+    func timeRow(swimTime: SwimTime) -> some View {
         HStack {
             VStack(alignment: .leading, spacing: 2) {
-                Text(event)
+                Text(swimTime.event)
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(AppTheme.textPrimary)
 
-                Text("Ivy Champs 2026")
-                    .font(.system(size: 12))
+                Text(swimTime.course.displayName)
+                    .font(.system(size: 11))
                     .foregroundColor(AppTheme.textMuted)
             }
 
             Spacer()
 
-            VStack(alignment: .trailing, spacing: 2) {
-                Text(time)
-                    .font(.system(size: 14, weight: .semibold, design: .monospaced))
-                    .foregroundColor(AppTheme.textPrimary)
-
-                HStack(spacing: 4) {
-                    Text("\(place)\(placeSuffix(place))")
-                        .font(.system(size: 12))
-                        .foregroundColor(placeColor(place))
-
-                    Text("•")
-                        .foregroundColor(AppTheme.textMuted)
-
-                    Text("+\(points) pts")
-                        .font(.system(size: 12))
-                        .foregroundColor(AppTheme.accent)
-                }
-            }
+            Text(swimTime.formattedTime)
+                .font(.system(size: 16, weight: .bold, design: .monospaced))
+                .foregroundColor(AppTheme.accent)
         }
+        .padding(.vertical, 12)
+        .padding(.horizontal, 16)
     }
 
-    func placeSuffix(_ place: Int) -> String {
-        switch place {
-        case 1: return "st"
-        case 2: return "nd"
-        case 3: return "rd"
-        default: return "th"
-        }
-    }
-
-    func placeColor(_ place: Int) -> Color {
-        switch place {
-        case 1: return AppTheme.gold
-        case 2: return AppTheme.silver
-        case 3: return AppTheme.bronze
-        default: return AppTheme.textSecondary
-        }
-    }
 }
 
 #Preview {
     NavigationStack {
-        SwimmerDetailView(swimmer: MockData.shared.swimmers[0])
+        // Use swimmers2022 to preview swimmer with times data
+        SwimmerDetailView(swimmer: MockData.shared.swimmers2022.first { !$0.times.isEmpty } ?? MockData.shared.swimmers2022[0])
     }
 }

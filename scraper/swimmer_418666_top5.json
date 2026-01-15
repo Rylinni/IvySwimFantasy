@@ -1,0 +1,35 @@
+{
+  "swimmer_id": 418666,
+  "top_5_events": [
+    {
+      "event": "100 Y Free",
+      "time": "46.28",
+      "time_seconds": 46.28,
+      "course": "SCY"
+    },
+    {
+      "event": "200 Y Free",
+      "time": "1:37.47",
+      "time_seconds": 97.47,
+      "course": "SCY"
+    },
+    {
+      "event": "200 Y IM",
+      "time": "1:50.03",
+      "time_seconds": 110.03,
+      "course": "SCY"
+    },
+    {
+      "event": "400 Y IM",
+      "time": "3:54.46",
+      "time_seconds": 234.46,
+      "course": "SCY"
+    },
+    {
+      "event": "500 Y Free",
+      "time": "4:23.30",
+      "time_seconds": 263.3,
+      "course": "SCY"
+    }
+  ]
+}

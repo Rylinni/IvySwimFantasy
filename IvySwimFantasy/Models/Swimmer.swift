@@ -1,5 +1,31 @@
 import Foundation
 
+/// Represents a swimmer's personal best time in an event
+struct SwimTime: Codable, Hashable {
+    let event: String           // Event name (e.g., "50 Y Free")
+    let time: String            // Formatted time (e.g., "19.57" or "1:45.32")
+    let timeSeconds: Double     // Time in seconds for sorting
+    let course: SwimCourse      // SCY, SCM, or LCM
+
+    var formattedTime: String {
+        time
+    }
+}
+
+enum SwimCourse: String, Codable, CaseIterable {
+    case scy = "SCY"   // Short Course Yards
+    case scm = "SCM"   // Short Course Meters
+    case lcm = "LCM"   // Long Course Meters
+
+    var displayName: String {
+        switch self {
+        case .scy: return "Yards"
+        case .scm: return "SC Meters"
+        case .lcm: return "LC Meters"
+        }
+    }
+}
+
 struct Swimmer: Identifiable, Codable, Hashable {
     let id: UUID
     let firstName: String
@@ -10,6 +36,7 @@ struct Swimmer: Identifiable, Codable, Hashable {
     let photoURL: String?
     var fantasyPoints: Double
     var projectedPoints: Double
+    var times: [SwimTime]       // Personal best times from SwimCloud
 
     var fullName: String {
         "\(firstName) \(lastName)"
@@ -19,6 +46,25 @@ struct Swimmer: Identifiable, Codable, Hashable {
         let first = firstName.prefix(1)
         let last = lastName.prefix(1)
         return "\(first)\(last)"
+    }
+
+    /// Get best times filtered by course (default: SCY for college)
+    func bestTimes(course: SwimCourse = .scy) -> [SwimTime] {
+        times.filter { $0.course == course }
+            .sorted { $0.timeSeconds < $1.timeSeconds }
+    }
+
+    init(id: UUID, firstName: String, lastName: String, school: IvySchool, year: ClassYear, events: [SwimEvent], photoURL: String?, fantasyPoints: Double, projectedPoints: Double, times: [SwimTime] = []) {
+        self.id = id
+        self.firstName = firstName
+        self.lastName = lastName
+        self.school = school
+        self.year = year
+        self.events = events
+        self.photoURL = photoURL
+        self.fantasyPoints = fantasyPoints
+        self.projectedPoints = projectedPoints
+        self.times = times
     }
 }
 

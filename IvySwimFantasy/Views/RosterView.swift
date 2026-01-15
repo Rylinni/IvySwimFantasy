@@ -14,7 +14,7 @@ struct RosterView: View {
     }
 
     var filteredSwimmers: [Swimmer] {
-        var swimmers = mockData.swimmers
+        var swimmers = mockData.swimmers2022  // Using 2021-2022 roster for testing
 
         if let school = selectedSchool {
             swimmers = swimmers.filter { $0.school == school }

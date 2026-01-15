@@ -18,7 +18,7 @@ class DataService: ObservableObject {
 
     func loadMockData() {
         let mock = MockData.shared
-        swimmers = mock.swimmers
+        swimmers = mock.swimmers2022  // Using 2021-2022 roster for testing
         fantasyTeams = mock.fantasyTeams
         currentMeet = mock.meet
     }
@@ -30,7 +30,7 @@ class DataService: ObservableObject {
         // let url = URL(string: "\(baseURL)/swimmers")!
         // let (data, _) = try await URLSession.shared.data(from: url)
         // return try JSONDecoder().decode([Swimmer].self, from: data)
-        return MockData.shared.swimmers
+        return MockData.shared.swimmers2022  // Using 2021-2022 roster for testing
     }
 
     func fetchMeetResults() async throws -> Meet {
