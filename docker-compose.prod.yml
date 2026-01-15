@@ -1,0 +1,37 @@
+# Docker Compose for Production Deployment
+# This references the remote Docker Hub image
+# Copy this file to your production server and run: docker-compose -f docker-compose.prod.yml up -d
+
+version: '3.8'
+
+services:
+  backend:
+    # Reference the image from Docker Hub
+    # Replace 'usaiinc/ivy-swim-backend' with your actual Docker Hub repository
+    image: usaiinc/ivy-swim-backend:latest
+    container_name: ivy-swim-backend-prod
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount a persistent data directory on the server
+      # This should contain the scraped JSON files
+      - /path/to/data:/app/data:ro
+    environment:
+      - DATA_DIR=/app/data
+      - PYTHONUNBUFFERED=1
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  default:
+    name: ivy-swim-network-prod
