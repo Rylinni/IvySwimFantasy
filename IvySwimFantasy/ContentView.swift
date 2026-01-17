@@ -8,6 +8,7 @@ struct ContentView: View {
         case standings = "Standings"
         case results = "Results"
         case swimmers = "Swimmers"
+        case apiTest = "API Test"  // Add this line
 
         var icon: String {
             switch self {
@@ -15,6 +16,7 @@ struct ContentView: View {
             case .standings: return "trophy.fill"
             case .results: return "list.number"
             case .swimmers: return "figure.pool.swim"
+            case .apiTest: return "network"  // Add this line
             }
         }
     }
@@ -35,6 +37,8 @@ struct ContentView: View {
                         ResultsView()
                     case .swimmers:
                         RosterView()
+                    case .apiTest:
+                        APITestView()  // Add this case
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
