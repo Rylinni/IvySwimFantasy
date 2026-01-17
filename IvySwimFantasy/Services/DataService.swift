@@ -9,7 +9,9 @@ class DataService: ObservableObject {
     @Published var isLoading = false
     @Published var error: Error?
 
-    private let baseURL = "https://your-api-server.com/api"
+    // For local testing: http://localhost:8000/api
+    // For production: https://your-production-server.com/api
+    private let baseURL = "http://localhost:8000/api"
 
     private init() {
         // Initialize with mock data for now
